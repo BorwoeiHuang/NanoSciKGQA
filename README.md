@@ -17,10 +17,10 @@ The NanoSciKGQA dataset is a dedicated resource designed to advance Question-Ans
 | **Question Types** | 8 Distinct Types | Questions categorized to ensure comprehensive coverage of functional, structural, and procedural nanoscience aspects. |
 
 ## 🛠️ Methodology: GraphRAG and Answer Generation
-1. NanoSciKG: constructed from article topics and abstracts through a structured entity extraction process using $\text{Gemma-3:12B}$ (Prompt 1). Entities were categorized into:
-   - Nanoscience Concepts: (e.g., nanodevice, TEM)
+1. NanoSciKG: constructed from article topics and abstracts through a structured entity extraction process using LLM. Entities were categorized into:
+   - Nanoscience Concepts: (e.g., nanotechnology, nanodevice, TEM, AFM)
    - Properties and Attributes: (e.g., functional mechanism, material components).
-2. Synergized GraphRAG Retrieval: Answers were generated using a $\text{GraphRAG}$ method featuring two parallel retrievers:
+2. Synergized GraphRAG Retrieval: Answers were generated using a GraphRAG method featuring two parallel retrievers:
    
 | Retriever | Function | Key Mechanism | 
 | ----- | ----- | ----- | 
