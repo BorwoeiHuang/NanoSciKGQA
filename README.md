@@ -35,4 +35,4 @@ Key findings include:
 - Qualitative Superiority: GPT-oos:20B obtained lower lexical scores but was rated highest by the LLM-as-a-Judge. This suggests GPT-oos:20B excels at abstractive synthesis and superior knowledge integration, paraphrasing accurate information rather than recalling literal keywords.
 
 ## ⬇️ Download 
-NanoSciKGQA dataset: <https://github.com/BorwoeiHuang/NanoSciKGQA/>
+[NanoSciKGQA dataset](https://huggingface.co/datasets/borwoeihuang/NanoSciKGQA/resolve/main/NanoSciKGQA.csv)
