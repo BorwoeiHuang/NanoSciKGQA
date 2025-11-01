@@ -27,12 +27,5 @@ The NanoSciKGQA dataset is a dedicated resource designed to advance Question-Ans
 | **Vector Index Similarity** | Semantic Matching | Embeds all KG nodes/relationships using mxbai-embed-large and performs vector similarity search against the embedded question. | 
 | **Subgraph Retriever** | Relational Context | Extracts subject entities using LLM, maps them to the KG, and retrieves all two-hop neighbors to form a contextual subgraph. | 
 
-## 📈 LLM Evaluation Benchmark
-We benchmarked seven open-source LLMs using a mixed evaluation suite (lexical metrics like Rouge-1/RoBERTa F1 and a qualitative LLM-as-a-Judge metric).
-
-Key findings include:
-- Lexical Bias: Models like Qwen-3:4B: scored highly in lexical metrics, often due to general, ambiguous answers that achieve partial keyword overlap, despite lacking deep domain knowledge.
-- Qualitative Superiority: GPT-oos:20B obtained lower lexical scores but was rated highest by the LLM-as-a-Judge. This suggests GPT-oos:20B excels at abstractive synthesis and superior knowledge integration, paraphrasing accurate information rather than recalling literal keywords.
-
 ## ⬇️ Download 
 [NanoSciKGQA dataset](https://huggingface.co/datasets/borwoeihuang/NanoSciKGQA/resolve/main/NanoSciKGQA.csv)
